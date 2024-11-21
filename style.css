@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url("https://www.okynemedialab.com/wp-content/uploads/2019/11/netflix-background-50-Black-1024x576.jpg");
+    height: vh;
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+    position: relative;
+}
+nav{
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+nav img{
+    color: red;
+    width: 155px;
+}
+.hero{
+    color: white;
+    display: flex;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+    padding: 250px 23px;
+}
+.hero> :nth-child(1){
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+.hero :nth-child(2){
+    font-size: 24px;
+    font-weight: 400px;
+    text-align: center;
+}
+.hero :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.separation{
+    height: 9px;
+    background-color: rgb(36, 36, 36);
+
+}
+.btn{
+    color: white;
+    padding: 8px 30px;
+    border-radius: 8px;
+    font-weight: bolder;
+    background-color: rgb(23,23,23,0.2);
+    border:1px solid gray;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 45px;
+    font-size: 20px;
+    justify-content: center;
+}
+.btn-red-sn{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+.main input{
+    border-radius: 4px;
+    padding: 15px 40px;
+    font-size: 15px;
+    width: 250px;
+    background-color: rgb(23,23,23,0.2);
+    border:1px solid gray;
+    color: white;
+}
+.division :nth-child(1){
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+.division :nth-child(2){
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;   
+}
+.division :nth-child(3){
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;   
+}
+.first{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+.division{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 60vw;
+    justify-content: center;
+}
+.multiplication{
+    max-width: 40vw;
+    justify-content: center;
+    align-items: center;
+}
+.multiplication img{
+    width: 655px;
+    position: relative;
+    z-index: 10;
+}
+.multiplication video{
+    position: absolute;
+    top: 1050px;
+    right: 510px;
+    width: 490px;
+}
+.second{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.add{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 40vw;
+    justify-content: center;
+}
+.add :nth-child(1){
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+.add :nth-child(2){
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;   
+}
+.subtract img{
+    height: 40vh;
+    width: 30vw;
+}
+.third{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.divide{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 30vw;
+    justify-content: center;
+}
+.divide :nth-child(1){
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+.divide :nth-child(2){
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;   
+}
+.multiply img{
+    height: 50vh;
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+.multiply video{
+    position: absolute;
+    top: 1800px;
+    right: 490px;
+    width: 16vw;
+    height: 80vh;
+}
+.forth{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.addition{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 35vw;
+    justify-content: center;
+}
+.addition :nth-child(1){
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+}
+.addition :nth-child(2){
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;   
+}
+.subtraction img{
+    height: 45vh;
+    width: 30vw;
+}
+
+.faqbox{
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    margin: 30px;
+}
+.plus{
+    display: flex;
+    background-color: rgb(44, 44, 44);
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.box1{
+    
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    width: 60vw;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+    cursor: hover;
+}
+.questions{
+    margin: 0px 300px;
+}
+.main1 input{
+    border-radius: 4px;
+    padding: 15px 40px;
+    font-size: 15px;
+    width: 250px;
+    background-color: rgb(23,23,23,0.2);
+    border:1px solid gray;
+    color: white;
+}
+.main1{
+    margin: 10px 20px 50px 450px;
+    color: white;
+}
+.main1 span{
+    padding: 12px;
+    line-height: 3.5;
+}
+.box1:hover{
+    background-color: rgb(68, 68, 68);
+}
+footer{
+    color: rgb(196, 196, 196);
+    max-width: 60vw;
+    margin: 100px auto;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: rgb(196, 196, 196);
+}
+.footer a{
+    color: rgb(196, 196, 196);
+    padding: 12px;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    color: rgb(173, 173, 173);
+}
+footer span{
+    /* margin: 10px 10px 10px 10px; */
+    padding: 10px 10px 10px 10px;
+}
+.India{
+    margin: 20px 10px;
+}
