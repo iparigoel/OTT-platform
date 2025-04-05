@@ -216,10 +216,10 @@ nav img{
 }
 .multiply video{
     position: absolute;
-    top: 50%;
+    top: 34%;
     left: 50%;
-    width: 80%;
-    height: 65%;
+    width: 60%;
+    height: 51%;
     transform: translate(-50%, -50%);
     z-index: 5;
     object-fit: cover;
