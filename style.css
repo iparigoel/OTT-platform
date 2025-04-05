@@ -124,19 +124,26 @@ nav img{
 }
 .multiplication{
     max-width: 40vw;
+    position: relative;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 .multiplication img{
-    width: 655px;
+    width: 100%;
     position: relative;
     z-index: 10;
 }
 .multiplication video{
     position: absolute;
-    top: 1050px;
-    right: 510px;
-    width: 490px;
+    top: 50%;
+    left: 50%;
+    width: 73%;
+    height: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    object-fit: cover;
+    pointer-events: none;
 }
 .second{
     height: 50vh;
@@ -194,18 +201,29 @@ nav img{
     font-weight: 400;
     color: white;   
 }
+.multiply {
+    width: 30vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .multiply img{
     height: 50vh;
-    width: 30vw;
+    width: 100%;
     position: relative;
     z-index: 10;
 }
 .multiply video{
     position: absolute;
-    top: 1800px;
-    right: 490px;
-    width: 16vw;
-    height: 80vh;
+    top: 50%;
+    left: 50%;
+    width: 73%;
+    height: 55%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    object-fit: cover;
+    pointer-events: none;
 }
 .forth{
     height: 50vh;
