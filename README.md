@@ -20,4 +20,4 @@ To run the project locally:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/iparigoel/ott-platform.git
+   git clone https://github.com/iparigoel/OTT-platform.git
